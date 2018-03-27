@@ -1,24 +1,16 @@
 {
-  "name": "workspace",
-  "version": "1.0.0",
-  "description": "Working through the React book found here (https://roadtoreact.com/)",
-  "main": "index.js",
+  "name": "hackernews",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "react": "^16.2.0"
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-scripts": "1.1.1"
   },
-  "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/DeanFlint/road-to-react.git"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/DeanFlint/road-to-react/issues"
-  },
-  "homepage": "https://github.com/DeanFlint/road-to-react#readme"
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
 }
